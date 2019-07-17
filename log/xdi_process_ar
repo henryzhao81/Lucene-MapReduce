@@ -1,0 +1,8 @@
+/var/log/xdi-audience-grid/xdi_process_ar.log {
+    daily
+    rotate 30
+    missingok
+    notifempty
+    compress
+    delaycompress
+}

@@ -15,7 +15,7 @@ We have large volume of data (serveral Terabytes) which generated hourly, and ot
 
 The daily data for previous day will be ready at 4am, and join with large dataset, we want to load to database as quick as possible, ideally less than one hour. But the job to join those 2 dataset usually cause more than 3 ~ 4 hours.
 
-To Make process faster, due the large volume of data was genereted hourly and  field 
+To Make process faster, due the large volume of data was genereted hourly and only very few fields was required, the lucene index start hourly once hourly dataset is ready. In the early morning, when the daily data is ready, map reduce job will start to query from lucene index to get better performance, more reducer more faster for the job processed.
 
 
 

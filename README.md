@@ -7,6 +7,7 @@ Reducer for query lucene index
 https://github.com/henryzhao81/Lucene-MapReduce/blob/master/src/main/java/com/openx/audience/xdi/xdiReport/XdiReportReducer.java
 
 Standalone lucene index builder
+https://github.com/henryzhao81/Lucene-MapReduce/tree/master/src/main/java/com/openx/audience/xdi/lucene
 
 
 
